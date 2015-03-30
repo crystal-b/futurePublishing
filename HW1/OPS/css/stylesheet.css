@@ -1,0 +1,27 @@
+p {
+	/*word-break: keep-all;*/
+	-webkit-hyphens: none;
+}
+#headline {
+	font-size: 2em;
+	font-weight: bold;
+}
+#chapter {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+#subhead {
+	font-size: 1.17em;
+	font-weight: bold;
+}
+#byline {
+	font-size: 1em;
+	font-weight: bold;
+}
+#dateline {
+	font-size: .83em;
+	font-weight: bold;
+}
+#caption {
+	font-size: .75em;
+}
