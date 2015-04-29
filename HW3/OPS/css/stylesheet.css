@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'alluraregular';
+    src: url('../fonts/allura-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  font-family: Georgia, serif;
+  font-size: 1em;
+  line-height: 1.33em;
+  width: 1024px;
+  height: 768px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+/* Book Title */
+h1 {
+  font-size: 1.5em;
+  line-height: 1.33em;
+}
+
+/* Chapter Title */
+h2 {
+  font-family: 'alluraregular';
+  font-size: 2.33em;
+  line-height: 1.2em;
+  clear: both;
+}
+
+/* Subtitle */
+h3 {
+  font-size: 1.25em;
+  line-height: 1.12em;
+}
+
+/* Meta Info */
+h4 {
+  font-size: 1.1em;
+  line-height: 1.05em;
+}
+
+/* Chapter Container */
+section {
+  padding: 5%;
+}
+
+section > p {
+  width: 40%;
+  float: right;
+}
+
+/* Drop Cap */
+section > p:first-of-type:first-letter { 
+  
+}
+
+figure {
+  float: left;
+  width: 40%;
+}
+
+figure > img {
+  width: 100%;
+  height: 100%;
+}
+
+figcaption {
+  
+}
+
+figcaption > p {
+
+}
+
+.pic {
+
+}
+
+.bounce {
+  position: relative;
+  bottom: 0;
+  -webkit-animation:bounce 1s 3;
+}
+
+/* ANIMATIONS */
+@-webkit-keyframes bounce {
+  0%        {bottom: 5px;}
+  25%, 75%  {bottom: 15px;}
+  50%       {bottom: 20px;}
+  100%      {bottom: 0;}
+}
+
+/* Kindle Eink: http://epubsecrets.com/media-queries-for-kindle-devices.php */
+
+/* Amazon Kindle */
+@media amzn-kf8
+  and (device-height: 800px)
+  and (device-width: 600px),
+  amzn-kf8
+  and (device-height: 600px)
+  and (device-width: 800px){
+
+}
+
+/* Amazon Kindle Paperwhite */
+@media amzn-kf8
+  and (device-height: 1024px)
+  and (device-width: 758px),
+  amzn-kf8
+  and (device-height: 758px)
+  and (device-width: 1024px){
+  
+}
+
+/* Many device available at: https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ */
+
+/* Smartphone - Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 667px)
+  and (orientation: portrait) {
+  
+}
+
+/* Smartphone - Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 667px)
+  and (orientation: landscape) {
+
+}
+
+/* Tablet - Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+
+}
+
+/* Laptop & Desktops */
+@media only screen 
+  and (min-device-width: 1025px) {
+
+}
